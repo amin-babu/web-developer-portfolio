@@ -120,7 +120,7 @@ main{
 /* about section styles*/
 
 .about{
-  padding: 130px;
+  padding: 100px;
   border-radius: 10px;
   background-color: #fff8f3;
   margin: 130px 0;
@@ -142,4 +142,28 @@ main{
 
 .about-info > p{
   margin-top: 5px;
+}
+
+#what-i-do{
+  padding: 30px 150px;
+}
+
+/* skills container */
+
+.skill-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill{
+  width: 197px;
+  height: 270px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px;
+}
+
+.skill:hover{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
