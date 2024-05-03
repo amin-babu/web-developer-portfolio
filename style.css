@@ -62,9 +62,9 @@ nav a{
 
 .header{
   background-color: #fff8f3;
-  background-image: url('images/header_bg.png');
+  background-image: url('images/header_bg.png'), url('images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, left;
 }
 
 .banner{
@@ -200,4 +200,34 @@ main{
 .resume-item > p{
   font-size: 14px;
   color: #474747;
+}
+
+#btn-4{
+  
+  margin:70px 450px ;
+}
+
+/* footer section */
+
+footer{
+  display: flex;
+  gap: 100px;
+  background-color: #fff8f3;
+  padding: 100px 200px;
+}
+
+.footer-column{
+  width: 50%;
+}
+
+.contact > input[type="text"], .contact > input[type="email"] , .contact > textarea{
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  overflow:auto;
+  width: 100%;
 }
